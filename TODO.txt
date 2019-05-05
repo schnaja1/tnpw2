@@ -1,0 +1,2 @@
+Øazení - aby šlo kombinovat filtrování a øazení napø. filtrování podle státu a seøazení podole ceny???
+otestovat - všechny 3 role, emaily, funkce 

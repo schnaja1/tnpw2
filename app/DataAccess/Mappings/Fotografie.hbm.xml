@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+
+  <class name="Fotografie" table="Fotografie">
+    <id name="Id" column="FotografieID">
+      <generator class="native" />
+    </id>
+    <property name="fotografie" column="Fotografie" length="2147483647"/>
+    <many-to-one name="hotel" column="HotelyID" foreign-key="FK_Fotografie_Hotely" />
+    <property name="popisek" column="Popisek" />
+    <property name="nahled" column="Nahled" length="2147483647"/>
+  </class>
+
+</hibernate-mapping>

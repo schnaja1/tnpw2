@@ -1,0 +1,41 @@
+﻿@using DataAccess.Model
+@{
+    ViewBag.Title = "Index";
+    ViewBag.Description = "Výpis vašich rezervací";
+}
+
+<a href="@Url.Action("Edit","Profil")" class="btn btn-default">Můj profil</a>
+
+<h2>Vaše rezervace</h2>
+
+ @if (Model != null)
+ {
+    foreach (Rezervace r in Model)
+    {
+        <h3>@r.zajezd.hotel.nazev</h3>
+        <table class="table">
+            <tr><th>Od</th><th>Do</th><th>Počet Dospělých</th><th>Počet Dětí</th><th>Zaplaceno</th><th>Celková cena</th></tr>
+            <tr><td>@r.zajezd.od</td><td>@r.zajezd.doo</td><td>@r.pocetDospelych</td><td>@r.pocetDeti</td>
+                                @if (r.zaplaceno)
+                                {
+                                    <td>
+                                        Zaplaceno
+                                        </td>
+                                        }
+                                        else
+                                        {
+                                        <td>Nezaplaceno</td>
+                                        }
+            <td>@r.cena()</td>                        
+            </tr>
+        </table>
+        
+        <p><b>Poznámka: </b>@r.poznamka</p>
+        <br /><br />
+    }
+
+
+
+ }
+
+

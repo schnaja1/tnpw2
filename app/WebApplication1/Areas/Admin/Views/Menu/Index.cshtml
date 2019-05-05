@@ -1,0 +1,14 @@
+﻿
+@model DataAccess.Model.Uzivatel
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+
+}
+
+@if (Model != null)
+{
+
+
+    <li><a href="@Url.Action("Logout", "Login", new { area = "" })">Odhlásit</a></li>
+}

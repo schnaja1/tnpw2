@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html class="noIE" lang="cs">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+   <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Url.Content("~/Contents/bootstrap.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/ionicons.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/owl.carousel.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/owl.theme.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/main.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/moje.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/flexslider.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/contact.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Contents/lightbox.css")">
+    <link href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css" rel="stylesheet" type="text/css" />
+    </head>
+
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/owl.carousel.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/script.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/MicrosoftAjax.js")"></script>
+    <script src="@Url.Content("~/Scripts/MicrosoftMvcAjax.js")"></script>
+    <script src="@Url.Content("~/Scripts/lightbox.js")"></script>
+   
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="@Url.Action("Index", "Home")" title="HOME"><i class="ion-paper-airplane"></i> euro <span>travel</span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                        <li><a href="@Url.Action("Index", "Zajezdy")">Správa hotelů</a></li>
+                        <li><a href="@Url.Action("Index", "Uzivatele")">Seznam uživatelů</a></li>
+                        @{Html.RenderAction("Index", "Menu");}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    <div class="dynamicContent" id="dynamicContent">
+        @RenderBody()
+    </div>
+    <div>
+        <ul class="social-icon">
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+        </ul>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="text-left">
+                        &copy; Copyright Euro Travels
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>  

@@ -1,0 +1,76 @@
+﻿@using DataAccess.Model
+@model Hotel
+
+@{
+    ViewBag.Title = "Přidání hotelu";
+}
+
+    @Html.ValidationSummary()
+
+
+<div class="container">
+
+    @using (Html.BeginForm("Upload", "Hotel", FormMethod.Post, new { @enctype = "multipart/form-data", @class = "form-singin" }))
+    {
+
+        <h2 class="form-signin-heading">Vytvoření hotelu</h2>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Název státu</label>
+    
+                @Html.TextBoxFor(x => x.destinace.stat.jmeno, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.destinace.stat.jmeno)
+     
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nazev destinace</label>
+      
+                @Html.TextBoxFor(x => x.destinace.nazev, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.destinace.nazev)
+      
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email</label>
+    
+                @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.email)
+  
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nazev</label>
+      
+                @Html.TextBoxFor(x => x.nazev, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.nazev)
+   
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Popis hotelu</label>
+
+                @Html.TextAreaFor(x => x.popis, 4, 63, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.popis)
+  
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Stravování</label>
+                @Html.DropDownList("stravovani", new SelectList(ViewBag.Stravovani, "Id", "nazev"), new { @class = "form-control" })
+
+   </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Fotografie</label>
+            <input type="file" class="multiple" name="files" multiple />
+        </div>
+
+
+
+                <button type="submit" class="btn btn-default">Vytvorit hotel</button>
+
+    }
+
+</div>

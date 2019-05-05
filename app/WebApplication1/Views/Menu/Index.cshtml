@@ -1,0 +1,29 @@
+﻿
+@model DataAccess.Model.Uzivatel
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+
+}
+
+@if (Model != null)
+{
+
+    if (Model.prava.nazev == "Zakaznik")
+    {
+        <li><a href="@Url.Action("Index", "Profil")">Můj profil</a></li>
+        <li><a href="@Url.Action("Logout", "Login")">Odhlásit</a></li>
+    }
+    else
+    {
+        <li><a href="@Url.Action("Index", "Home", new { area = "Admin" })">Do administrátorské sekce</a></li>
+        <li><a href="@Url.Action("Logout", "Login")">Odhlásit</a></li>
+    }
+
+}
+else
+{
+    <li><a href="@Url.Action("Index", "Registrace")">Registrace</a></li>
+    <li><a href="@Url.Action("Index", "Login")">Přihlásit</a></li>
+
+}

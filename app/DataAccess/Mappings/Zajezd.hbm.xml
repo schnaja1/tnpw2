@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+
+  <class name="Zajezd" table="Zajezdy">
+    <id name="Id" column="ZajezdyID">
+      <generator class="native" />
+    </id>
+    <property name="cena" column="Cena" />
+    <property name="doo" column="Do" />
+    <property name="kapacita" column="Kapacita" />
+    <property name="od" column="Od" />
+    <many-to-one name="hotel" column="HotelyID"  not-null="true" foreign-key="FK_Zajezdy_Hotely" />
+    <many-to-one name="doprava" column="MoznostidopravyID" foreign-key="FK_Zajezdy_Moznostidopravy" />
+  </class>
+
+</hibernate-mapping>
+
+<!--
+ <class name="Category">
+    ...
+        <many-to-one name="hotel" column="HotelyID" foreign-key="FK_Zajezdy_Hotely" />
+    <set name="Products" inverse="true" >
+      <key column="CategoryID" /> // instead of Id
+      -->

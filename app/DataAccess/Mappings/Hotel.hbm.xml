@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+
+  <class name="Hotel" table="Hotely">
+    <id name="Id" column="HotelyID">
+      <generator class="native" />
+    </id>
+    <property name="nazev" column="Nazev" />
+    <property name="hodnoceni" column="Hodnoceni" />
+    <many-to-one name="destinace" column="DestinaceID" foreign-key="FK_Hotely_Destinace" />
+    <property name="email" column="email" />
+    <many-to-one name="stravovani" column="ZpusobystravovaniID" foreign-key="FK_Hotely_Zpusobystravovani" />
+    <property name="popis" column="popis" />
+    <bag name='zajezdy' inverse="true" table='Zajezdy' lazy='true'>
+      <key column='HotelyID'/>
+      <one-to-many class='Zajezd'/>
+    </bag>
+    <bag name='fotky' table='Fotografie' lazy='true'>
+      <key column='HotelyID'/>
+      <one-to-many class='Fotografie'/>
+    </bag>
+  </class>
+
+</hibernate-mapping>

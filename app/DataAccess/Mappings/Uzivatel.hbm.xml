@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+<class name="Uzivatel" table="Uzivatele">
+ 
+  <id name="Id" column="UzivateleID">
+    <generator class="native" />
+  </id>
+  <property name="heslo" column="Heslo" />
+  <property name="jmeno" column="Jmeno" />
+  <property name="login" column="Login" />
+  <property name="novinky" column="Novinky" />
+  <property name="prijmeni" column="Prijmeni" />
+  <property name="telefon" column="Telefon" />
+  <many-to-one name="adresa" column="AdresyID" foreign-key="FK_Uzivatele_Adresy" />
+  <many-to-one name="prava" column="UzivatelskaPravaID" foreign-key="FK_Uzivatele_Uzivatelskerole" />
+
+</class>
+</hibernate-mapping>

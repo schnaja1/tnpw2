@@ -1,0 +1,54 @@
+﻿@using DataAccess.Model
+@model Uzivatel
+@{
+    ViewBag.Title = "Detail";
+}
+
+<div class="container">
+
+    <h1>@Model.login</h1>
+    <p>Jméno: @Model.jmeno</p>
+    <p>Příjmení: @Model.prijmeni</p>
+    <p>Adresa: @Model.adresa.mesto @Model.adresa.ulice @Model.adresa.cp</p>
+    <p>PSČ: @Model.adresa.psc.psc</p>
+
+    @if (User.IsInRole("Administrator"))
+    {
+        <a href="@Url.Action("Autorizuj", "Uzivatele", new {id = @Model.Id})">Autorizace</a>
+    }
+
+    <table class="table">
+        <tr><th>Hotel</th><th>Od</th><th>Do</th><th>Počet Dospělých</th><th>Počet Dětí</th><th>Celková cena</th><th>Zaplaceno</th><th>Smaž</th></tr>
+        @foreach (Rezervace r in ViewBag.Rezervace)
+        {
+            <tr>
+                <td>@r.zajezd.hotel.nazev</td>
+                <td>@r.zajezd.od</td>
+                <td>@r.zajezd.doo</td>
+                <td>@r.pocetDospelych</td>
+                <td>@r.pocetDeti</td>
+                <td>@r.cena()</td>
+                @if (!@r.zaplaceno)
+                {
+                    <td><a href="@Url.Action("Rezervuj", "Uzivatele", new {id = r.Id})" onclick="potvrd()">Potvrď</a></td>
+                }
+                else
+                {
+                    <td>Zaplaceno</td>
+                }
+                <td><a href="@Url.Action("Smaz", "Uzivatele", new {id = r.Id})" onclick = 'smaz()'>Smaž</a></td>
+            </tr>
+        }
+    </table>
+
+
+</div>
+
+<script>
+    function smaz() {
+        return confirm('Přejete si opravdu zmazat rezervaci?');
+    }
+    function potvrd() {
+        return confirm('Přejete si opravdu potvrdit zájezd?');
+    }
+</script>

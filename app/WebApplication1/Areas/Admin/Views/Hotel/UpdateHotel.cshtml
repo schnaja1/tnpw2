@@ -1,0 +1,67 @@
+﻿@using DataAccess.Model
+@model Hotel
+
+@{
+    ViewBag.Title = "Úprava hotelu";
+}
+
+@Html.ValidationSummary()
+
+<div class="container">
+
+
+    @using (Html.BeginForm("UpdateInDB", "Hotel", FormMethod.Post, new { enctype = "multipart/form-data" ,@class="form-singin"}))
+    {
+
+
+        <h2 class="form-signin-heading">Úprava hotelu @Model.nazev</h2>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Fotografie</label>
+                <input type="file" class="multiple" name="files" multiple />
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Název státu</label>
+                @Html.TextBoxFor(x => x.destinace.stat.jmeno, new { @class = "form-control", data_bind = "value:" + Model.destinace.stat.jmeno })
+                @Html.ValidationMessageFor(x => x.destinace.stat.jmeno)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nazev destinace</label>
+                @Html.TextBoxFor(x => x.destinace.nazev, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.destinace.nazev)
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email</label>
+                @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.email)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nazev</label>
+                @Html.TextBoxFor(x => x.nazev, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.nazev)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Popis</label>
+                @Html.TextAreaFor(x => x.popis, 4, 63, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.popis)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Způsob stravování</label>
+                @Html.DropDownList("stravovani", new SelectList(ViewBag.Stravovani, "Id", "nazev"), new { @class = "form-control" })
+        </div>
+        @Html.HiddenFor(x => x.Id)
+        @Html.HiddenFor(x => x.fotky)
+
+
+       <button type="submit" class="btn btn-default">Upravit hotel</button>
+
+    }
+
+</div>

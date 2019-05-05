@@ -1,0 +1,59 @@
+﻿@using DataAccess.Model
+@model DataAccess.Model.Rezervace
+@{
+    ViewBag.Title = "Rezervovat";
+    ViewBag.Description = "Rezervace zájezdu";
+}
+
+@if (TempData["rezervace"] != null)
+{
+    <h3>@TempData["rezervace"]</h3>
+}
+
+<div class="container">
+    @using (Html.BeginForm("Rezervovat", "Zajezdy", FormMethod.Post))
+    {
+
+        @Html.Hidden("zi", @Model.zajezd.Id);
+        <h2 class="form-signin-heading">Vytvořte rezervaci pro <i>@Model.zajezd.hotel.nazev</i> </h2>
+        <h3>Cena za dospělého: @Model.zajezd.cena Kč</h3>
+        <div class="form-group">
+            <label for="pocetDospelych">Počet dospělých</label>
+            @Html.DropDownListFor(m => m.pocetDospelych, new SelectList(
+                  new List<Object>{
+                       new { value = 1 , text = "1"  },
+                       new { value = 2 , text = "2" },
+                       new { value = 3 , text = "3"},
+                       new { value = 4 , text = "4"}
+                    },
+                  "value",
+                  "text",
+                   1), new { @class = "form-control" })
+            </div>
+            <h3>Cena za dítě: @(Model.zajezd.cena/2) Kč</h3>
+            <div class="form-group">
+                <label for="pocetDeti">Počet dětí</label>
+                @Html.DropDownListFor(m => m.pocetDeti, new SelectList(
+                  new List<Object>{
+                       new { value = 0 , text = "0"  },
+                       new { value = 1 , text = "1" },
+                       new { value = 2 , text = "2"},
+                       new { value = 3 , text = "3"}
+                    },
+                  "value",
+                  "text",
+                   0), new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                <label for="poznamka">Poznámka:</label>
+                @Html.TextAreaFor(m => m.poznamka, 4, 63, new { @class = "form-control", @id = "poznamka" })
+            </div>
+
+            <button type="submit" class="btn btn-default">Zaregistrovat</button>
+
+
+            }
+    <p>Kapacita zájezdu: @Model.zajezd.kapacita</p>
+
+        </div>

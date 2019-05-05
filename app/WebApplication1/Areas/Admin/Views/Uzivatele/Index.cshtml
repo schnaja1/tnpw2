@@ -1,0 +1,81 @@
+﻿@using DataAccess.Model
+@model IList<Uzivatel>
+@{
+    ViewBag.Title = "Uživatelé";
+}
+
+<div class="container">
+    <div class="panel">
+        <div class="panel-body">
+            @using (Ajax.BeginForm("Search", new AjaxOptions() { UpdateTargetId = "dynamicContent", InsertionMode = InsertionMode.Replace }))
+            {
+                <input type="text" id="searchBox" class="form-control" placeholder="Vyhledat uživatele podle loginu" name="phrase" />
+                <input type="submit" value="Hledat" class="btn btn-default" />
+            }
+        </div>
+    </div>
+
+
+    <table class="table">
+        <tr><th>Login</th><th>Jméno</th></tr>
+        @foreach (Uzivatel b in Model)
+            {
+
+            <tr>
+                <td>@b.login</td>
+                <td> <a href="@Url.Action("Detail", "Uzivatele", new {id = b.Id})">@b.jmeno @b.prijmeni</a></td>
+            </tr>
+
+
+        }
+    </table>
+
+    <br />
+    <br />
+
+    @if (ViewBag.Pages != null)
+    {
+        <ul class="pagination">
+            <li class="page-item">
+                @Ajax.ActionLink("<<", "Index", new { page = ViewBag.CurrentPage - 1 }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+
+            </li>
+            @for (int i = ViewBag.FirstPage; i <= ViewBag.LastPage; i++)
+            {
+                <li class="@(ViewBag.CurrentPage == i ? "active" : "")">
+                    @Ajax.ActionLink(i.ToString(), "Index", new { page = i }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+                </li>
+            }
+            <li class="page-item">
+                @Ajax.ActionLink(">>", "Index", new { page = ViewBag.CurrentPage + 1 }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+
+
+            </li>
+
+        </ul>
+
+    }
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+
+        $("#searchBox").autocomplete({
+            source: function (request, response) {
+                $.ajax({
+                    url: '@Url.Action("SearchUzivatel", "Uzivatele")',
+                    dataType: "json",
+                    data: {
+                        query: request.term
+                    },
+                    success: function (data) {
+                        response(data);
+                    }
+                });
+            },
+            minLength: 3,
+
+        });
+    });
+</script>

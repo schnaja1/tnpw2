@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+
+  <class name="Destinace" table="Destinace">
+    <id name="Id" column="DestinaceID">
+      <generator class="native" />
+    </id>
+    <property name="nazev" column="Nazev" />
+    <many-to-one name="stat" column="StatyID" foreign-key="FK_Destinace_Staty" />
+  </class>
+
+</hibernate-mapping>

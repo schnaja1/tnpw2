@@ -1,0 +1,49 @@
+﻿@using DataAccess.Model
+@model DataAccess.Model.Zajezd
+@{
+    ViewBag.Title = "Nový Zajezd";
+}
+
+
+@Html.ValidationSummary()
+<div class="container">
+    @using (Html.BeginForm("VlozZajezd", "Zajezdy", FormMethod.Post, new { @class = "form-singin" }))
+    {
+
+        @Html.Hidden("h", @Model.hotel.Id);
+        <h2 class="form-signin-heading">Vytvoření nového zjezdu pro @Model.hotel.nazev</h2>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Datum odjezdu</label>
+            @Html.TextBoxFor(x => x.od, new { @class = "form-control date", type = "date" })
+            @Html.ValidationMessageFor(x => x.od)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Datum návratu</label>
+            @Html.TextBoxFor(x => x.doo, new { @class = "form-control date", type = "date" })
+            @Html.ValidationMessageFor(x => x.doo)
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Cena</label>
+            @Html.TextBoxFor(x => x.cena, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.cena)
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Kapacita</label>
+            @Html.TextBoxFor(x => x.kapacita, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.kapacita)  
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Způsob dopravy</label>
+            @Html.DropDownList("DId", new SelectList(ViewBag.Doprava, "Id", "Typ"), new { @class = "form-control" })
+        </div>
+
+
+        <button type="submit" class="btn btn-default">Vytvořit</button>
+
+
+
+    }
+</div>

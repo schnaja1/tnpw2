@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DataAccess" namespace="DataAccess.Model">
+
+  <class name="Rezervace" table="Rezervace">
+    <id name="Id" column="RezervaceID">
+      <generator class="native" />
+    </id>
+    <property name="pocetDospelych" column="Pocetdospelych" />
+    <property name="poznamka" column="Poznámka" />
+    <many-to-one name="uzivatel" column="UzivateleID" foreign-key="FK_Rezervace_Uzivatele" />
+    <property name="pocetDeti" column="pocetdeti" />
+    <many-to-one name="zajezd" column="ZajezdyID" foreign-key="FK_Rezervace_Zajezdy" />
+    <property name="zaplaceno" column="Zaplaceno" />
+  </class>
+
+</hibernate-mapping>

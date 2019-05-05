@@ -1,0 +1,226 @@
+C:\Dev\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Dev\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Dev\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.xml
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Dev\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Dev\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Dev\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Dev\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Dev\WebApplication1\WebApplication1\bin\DataAccess.dll
+C:\Dev\WebApplication1\WebApplication1\bin\DataAccess.pdb
+C:\Dev\WebApplication1\WebApplication1\bin\NHibernate.dll
+C:\Dev\WebApplication1\WebApplication1\bin\Iesi.Collections.dll
+C:\Dev\WebApplication1\WebApplication1\bin\NHibernate.xml
+C:\Dev\WebApplication1\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\DataAccess.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\NHibernate.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\DataAccess.pdb
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\NHibernate.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Luky\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Luky\Desktop\app\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Luky\Desktop\app\WebApplication1\bin\WebApplication1.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Luky\Desktop\app\WebApplication1\bin\DataAccess.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\NHibernate.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\Luky\Desktop\app\WebApplication1\bin\DataAccess.pdb
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\NHibernate.xml
+C:\Users\Luky\Desktop\app\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Desktop\app\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\app\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Luky\Desktop\app\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\UHK\DBS\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\UHK\DBS\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\WebApplication1.dll.config
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\WebApplication1.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\WebApplication1.pdb
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\DataAccess.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Helpers.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Mvc.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Razor.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\NHibernate.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\Iesi.Collections.dll
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\DataAccess.pdb
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Razor.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Helpers.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\System.Web.Mvc.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\NHibernate.xml
+C:\UHK\DBS\projektdbs\app\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\WebApplication1.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\DataAccess.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\NHibernate.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\DataAccess.pdb
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\NHibernate.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Luky\Documents\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\WebApplication1.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\DataAccess.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\NHibernate.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\DataAccess.pdb
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\NHibernate.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Luky\Desktop\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\WebApplication1.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\DataAccess.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\NHibernate.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\DataAccess.pdb
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\NHibernate.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Luky\Desktop\skola\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\WebApplication1.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\WebApplication1.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\DataAccess.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\NHibernate.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\Iesi.Collections.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\DataAccess.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\NHibernate.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\bin\Iesi.Collections.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\WebApplication1.dll.config
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\WebApplication1.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\WebApplication1.pdb
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\DataAccess.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Helpers.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Mvc.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Razor.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\NHibernate.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\Iesi.Collections.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\DataAccess.pdb
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Razor.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Webpages.Razor.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Helpers.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\System.Web.Mvc.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\NHibernate.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\bin\Iesi.Collections.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\WebApplication1\obj\Debug\WebApplication1.pdb

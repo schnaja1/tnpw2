@@ -1,0 +1,26 @@
+﻿@using DataAccess.Model
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Vaše rezervace</h2>
+
+<a href="@Url.Action("Edit","Profil")">Úprava profilu</a>
+
+@if (Model != null)
+{
+    foreach (Rezervace r in Model)
+    {
+        <h3>@r.cena()</h3>
+        <p>@r.zajezd.hotel.nazev</p>
+        <p>Dospělí: @r.pocetDospelych</p>
+        <p>Od @r.zajezd.od</p>
+        <p>Do @r.zajezd.doo</p>
+        <p>Celková cena: </p>
+    }
+
+
+
+}
+
+

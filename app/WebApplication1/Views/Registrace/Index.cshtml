@@ -1,0 +1,85 @@
+﻿@model DataAccess.Model.Uzivatel
+
+@{
+    ViewBag.Title = "Registrace";
+    ViewBag.Description = "Zaregistujte se, aby jste mohli využívat naše služby.";
+}
+
+@Html.ValidationSummary()
+
+<div class="container">
+
+    @using (Html.BeginForm("RegistrovatUzivatele", "Registrace", FormMethod.Post, new { @class = "form-singin" }))
+    {
+
+        <h2 class="form-signin-heading">Registrace</h2>
+        <div class="form-group">
+            <label for="jmeno">Jméno</label>
+            @Html.TextBoxFor(x => x.jmeno, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.jmeno)
+        </div>
+
+        <div class="form-group">
+            <label for="prijmeni">Příjmení</label>
+            @Html.TextBoxFor(x => x.prijmeni, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.prijmeni)
+        </div>
+
+        <div class="form-group">
+            <label for="login">Login</label>
+            @Html.TextBoxFor(x => x.login, new {@type = "email", @class = "form-control email" })
+            @Html.ValidationMessageFor(x => x.login)
+        </div>
+
+        <div class="form-group">
+            <label for="heslo">Heslo</label>
+            @Html.PasswordFor(x => x.heslo, new { @class = "form-control password" })
+            @Html.ValidationMessageFor(x => x.heslo)
+        </div>
+
+        <div class="form-group">
+            <label for="adresa_mesto">Město</label>
+            @Html.TextBoxFor(x => x.adresa.mesto, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.adresa.mesto)
+        </div>
+
+        <div class="form-group">
+            <label for="adresa_ulice">Ulice</label>
+            @Html.TextBoxFor(x => x.adresa.ulice, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.adresa.ulice)
+        </div>
+
+        <div class="form-group">
+            <label for="adresa_cp">Cp</label>
+            @Html.TextBoxFor(x => x.adresa.cp, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.adresa.cp)
+        </div>
+
+        <div class="form-group">
+            <label for="adresa_psc_psc">Psc</label>
+            @Html.TextBoxFor(x => x.adresa.psc.psc, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.adresa.psc.psc)
+        </div>
+
+        <div class="form-group">
+            <label for="telefon">Telefonní číslo</label>
+            @Html.TextBoxFor(x => x.telefon, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.telefon)
+        </div>
+
+        <div class="checkbox">
+            <label>
+                @Html.CheckBoxFor(x => x.novinky)
+                @Html.ValidationMessageFor(x => x.novinky)
+                Přeji si dostávat novinky
+            </label>
+
+        </div>
+
+
+        <button type="submit" class="btn btn-default">Zaregistrovat</button>
+
+
+    }
+
+    </div>

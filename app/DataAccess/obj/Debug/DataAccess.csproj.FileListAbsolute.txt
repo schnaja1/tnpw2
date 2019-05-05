@@ -1,0 +1,178 @@
+C:\Dev\WebApplication1\DataAccess\bin\Debug\DataAccess.dll
+C:\Dev\WebApplication1\DataAccess\bin\Debug\DataAccess.pdb
+C:\Dev\WebApplication1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Dev\WebApplication1\DataAccess\obj\Debug\DataAccess.dll
+C:\Dev\WebApplication1\DataAccess\obj\Debug\DataAccess.pdb
+c:\Dev\WebApplication1\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Helpers.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Mvc.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Razor.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Helpers.xml
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Mvc.xml
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.Razor.xml
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.xml
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\Dev\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Dev\WebApplication1\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Dev\WebApplication1\DataAccess\bin\Debug\NHibernate.dll
+C:\Dev\WebApplication1\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Dev\WebApplication1\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\NHibernate.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\WebApplication1\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\app\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\app\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\app\DataAccess\obj\Debug\DataAccess.pdb
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\DataAccess.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\DataAccess.pdb
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\NHibernate.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\NHibernate.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\UHK\DBS\projektdbs\app\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\UHK\DBS\projektdbs\app\DataAccess\obj\Debug\DataAccess.dll
+C:\UHK\DBS\projektdbs\app\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\NHibernate.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Luky\Desktop\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\NHibernate.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luky\Documents\projektdbs\app\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\NHibernate.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luky\Desktop\projektdbs\app\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\NHibernate.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Helpers.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\NHibernate.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Helpers.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\DBS2\DataAccess\obj\Debug\DataAccess.pdb
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\DataAccess.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\DataAccess.pdb
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\NHibernate.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\Iesi.Collections.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\NHibernate.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Helpers.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Mvc.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.Razor.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\obj\Debug\DataAccess.dll
+D:\UHK\UHK stuff\projektdbs\projektdbs\app\DataAccess\obj\Debug\DataAccess.pdb

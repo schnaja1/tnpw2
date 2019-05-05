@@ -1,0 +1,166 @@
+﻿@using DataAccess.Model
+@model IList<Hotel>
+@{
+    ViewBag.Title = "Zájezdy";
+}
+
+
+
+<div class="container">
+    @if (TempData["x"] != null)
+    {
+        <h3>@TempData["x"]</h3>
+    }
+    @if (User.IsInRole("Administrator"))
+    {
+        <a href="@Url.Action("Add", "Hotel")" class="custom-button">Nový hotel</a>
+    }
+    <a href="@Url.Action("Index", "Zajezdy")" class="custom-button">Všechny zajezdy </a>
+
+    <div class="panel">
+        <div class="panel-body">
+            @using (Ajax.BeginForm("Search", new AjaxOptions() { UpdateTargetId = "dynamicContent", InsertionMode = InsertionMode.Replace }))
+            {
+                <input type="text" class="form-control" id="searchBox" placeholder="Vyhledat hotel podle názvu" name="phrase" />
+                <input type="submit" value="Hledat" class="btn btn-default" />
+            }
+        </div>
+    </div>
+
+
+    @if (ViewBag.Staty != null)
+    {
+        <div class="form-group">
+            <label for="stat">Vyberte stát</label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="stat" onchange="location = this.value;">
+                <option selected value="x">Vyberte stát....</option>
+                @foreach (Stat s in ViewBag.Staty)
+                {
+                    <option value="@Url.Action("Stat", "Zajezdy", new { id = s.Id })">@s.jmeno</option>
+                }
+            </select>
+            </div>
+    }
+            <br />
+            @if (ViewBag.Destinace != null)
+            {
+                <div class="form-group">
+                    <label for="destince">Vyberte destinaci</label>
+                    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="destince" onchange="location = this.value;">
+                        <option selected>Vyber destinaci</option>
+
+
+                        @foreach (Destinace d in ViewBag.Destinace)
+                        {
+                            <option value="@Url.Action("Destinace", "Zajezdy", new { id = d.Id })">@d.nazev</option>
+                        }
+
+                    </select>
+                    </div>
+            }
+    <div class="form-group">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Seřadit podle: </label>
+        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="razeni" id="inlineFormCustomSelect" onchange="location = this.value;">
+            <option selected value="0">Vyberte...</option>
+            <option value="@Url.Action("Index", "Zajezdy", new { page = 1, view = 0, datumOd = ViewBag.DatumOd, datumDo = ViewBag.DatumDo })">Názvu</option>
+            <option value="@Url.Action("Index", "Zajezdy", new { page = 1, view = 1, datumOd = ViewBag.DatumOd, datumDo = ViewBag.DatumDo })">Ceny</option>
+        </select>
+    </div>
+    @using (Html.BeginForm("Index", "Zajezdy", new { page = 1, view = 1 }, FormMethod.Post, new { @class = "form-singin" }))
+    {
+        <div class="form-group">
+            <label for="datumOd">Datum odjezdu: </label>
+            @if (ViewBag.DatumOd == null)
+            {
+                <input name="datumOd" type="date" id="datumOd">
+            }
+            else
+            {
+                <input name="datumOd" type="date" id="datumOd" value="@ViewBag.DatumOd.ToString("yyyy-MM-dd")">
+            }
+            <label class="mr-sm-2" for="datumDo">Datum návratu: </label>
+            @if (ViewBag.DatumDo == null)
+            {
+                <input name="datumDo" type="date" id="datumDo" />
+            }
+            else
+            {
+                <input name="datumDo" type="date" id="datumDo" value="@ViewBag.DatumDo.ToString("yyyy-MM-dd")">
+            }
+
+        </div>
+        <button type="submit" class="btn btn-default">Vyhledat pomocí data</button>
+    }
+
+                    <br />
+                    <br />
+                    <br />
+
+                    @foreach (Hotel h in Model)
+                    {
+                        <div class="container">
+                            <h2><a href="@Url.Action("Detail", "Zajezdy", new { id = h.Id })">@h.nazev</a>        <br /></h2>
+                            @if (h.fotky.Count() > 0)
+                            {
+
+                                <img src="@Url.Content(@h.fotky.ElementAt(0).nahled)" alt="@h.fotky.ElementAt(0).nahled" width="300" height="200" />
+
+                            }
+                            <h5>@h.destinace.nazev - @h.destinace.stat.jmeno</h5>
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                using (Html.BeginForm("UpdateHotel", "Hotel", FormMethod.Post))
+                                {
+                            @Html.Hidden("id", @h.Id,new {id = h.Id});
+                            <button type="submit" class="btn btn-default">Upravit Hotel</button>
+                                }
+                             @Html.ActionLink("Smazat", "Delete", "Hotel", new { id = h.Id }, new {@class= "btn btn-default", @onclick = "return confirm('Přejete si opravdu zmazat hotel " + h.nazev + "??');"})
+
+                           }
+                        </div>
+                    }
+
+
+                    @if (ViewBag.Pages != null)
+                    {
+                        <ul class="pagination">
+                            <li class="page-item">
+                                @Ajax.ActionLink("<<", "Index", new { page = ViewBag.CurrentPage - 1, view = ViewBag.ViewMode, datumOd = ViewBag.DatumOd, datumDo = ViewBag.DatumDo }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+                            </li>
+                            @for (int i = ViewBag.FirstPage; i <= ViewBag.LastPage; i++)
+                            {
+
+                                <li class="@(ViewBag.CurrentPage == i ? "active" : "")">
+                                    @Ajax.ActionLink(i.ToString(), "Index", new { page = i, view = ViewBag.ViewMode, datumOd = ViewBag.DatumOd, datumDo = ViewBag.DatumDo }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+                                </li>
+                            }
+                            <li class="page-item">
+                                @Ajax.ActionLink(">>", "Index", new { page = ViewBag.CurrentPage + 1, view = ViewBag.ViewMode, datumOd = ViewBag.DatumOd, datumDo = ViewBag.DatumDo }, new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dynamicContent" })
+                            </li>
+                        </ul>
+                    }
+                </div>
+
+
+<script type="text/javascript">
+    $(function () {
+
+        $("#searchBox").autocomplete({
+            source: function (request, response) {
+                $.ajax({
+                    url: '@Url.Action("SearchHotels", "Zajezdy")',
+                    dataType: "json",
+                    data: {
+                        query: request.term
+                    },
+                    success: function (data) {
+
+                    }
+                });
+            },
+            minLength: 3,
+
+        });
+    });
+</script>
+

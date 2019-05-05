@@ -1,0 +1,94 @@
+﻿@using DataAccess.Model
+@model DataAccess.Model.Hotel
+
+@{
+    ViewBag.Title = "Detail";
+}
+@if (TempData["x"] != null)
+{
+    <h3>@TempData["x"]</h3>
+}
+
+
+<h2>@Model.nazev</h2>
+
+
+<div class="row">
+    @foreach (Fotografie foto in @Model.fotky)
+    {
+
+        <div class="col-xs-6 col-md-3">
+            <a href="@Url.Content(foto.fotografie)" data-lightbox="roadtrip" class="thumbnail">
+                <img src="@Url.Content(foto.fotografie)" alt="@foto.popisek" />
+            </a>
+        </div>
+    }
+</div>
+<br />
+
+<br />
+<p>Popis: @Model.popis</p>
+<br />
+<p>
+    Způsob stravování: @Model.stravovani.nazev
+    @Model.stravovani.popis
+</p>
+
+<h3>Dostupné zájezdy</h3>
+<table class="table">
+    <tr>
+        <th>Od</th>
+        <th>Do</th>
+        <th>Cena za osobu</th>
+        <th>Způsob dopravy</th>
+        <th>Kapacita</th>
+            <th>
+                Smazat
+            </th>
+    </tr>
+    @foreach (Zajezd z in @Model.zajezdy)
+    {
+        <tr>
+            <td>
+                @z.od.Date
+            </td>
+            <td>
+                @z.doo.Date
+            </td>
+            <td>
+                @z.cena kč
+            </td>
+            <td>
+                @z.doprava.typ
+            </td>
+            <td>
+                @z.kapacita
+            </td>
+            <td>
+                @using (Html.BeginForm("Smaz", "Zajezdy", FormMethod.Post))
+                {
+                    @Html.Hidden("z", @z.Id);
+                    <button type="submit" class="btn btn-default" onclick="smaz()">X</button>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+@if (User.Identity.IsAuthenticated)
+{
+    using (Html.BeginForm("NovyZajezd", "Zajezdy", FormMethod.Post))
+    {
+        @Html.Hidden("hotel", @Model.Id);
+        <button type="submit" class="btn btn-default">Nový zájezd</button>
+    }
+}
+
+<script>
+    function smaz() {
+        return confirm('Přejete si opravdu smazat zájezd?');
+    }
+</script>
+
+
+
